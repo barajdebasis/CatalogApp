@@ -1,4 +1,5 @@
 import 'package:catalog_app/home_page.dart';
+import 'package:catalog_app/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'login_page.dart';
 
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         "/":(context)=>LoginPage(),
-        "/homepage":(context)=>HomePage(),
+        MyRoutes.homeRoute:(context)=>HomePage(),
+        MyRoutes.loginRoute:(context)=>LoginPage(),
 
       },
     );

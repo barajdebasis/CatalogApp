@@ -9,6 +9,15 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Material(
+      color: Colors.white,
+      child: AppBar(
+        title: Text("Catlog"),
+
+
+      ),
+
+
+    );
   }
 }
